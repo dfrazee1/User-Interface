@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,10 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	
+	
 }
 
 html, body {
@@ -60,7 +62,55 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 /* Your code starts here! */
+title{
+	display:none;
+}
+
+.navigation {
+margin: 0 auto;
+width: 100%;
+}
+.navigation a {
+	display: inline-block;
+	margin: 0 auto;
+	width: 3%;
+	vertical-align: bottom;
+	margin-left: 75px;
+	
+
+}
+
+.logo {
+	vertical-align: middle;
+	margin-left: 75px;
+}
+
+.header{
+	display: inline-block;
+	width:100%;
+	margin: 1px;
+
+}
+
+#hh1{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	
+	
+}
+.header a{
+	width: 50%;
+	font-size: 25px;
+	
+}
+
+/* .header img{
+	
+} */
